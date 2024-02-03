@@ -92,7 +92,7 @@ def translator_app():
                 
                 # Display translated text
                 st.write("Translated Text:")
-                st.write(translation_output['translation'])
+                st.code(translation_output['translation'])
             else:
                 st.warning("Language code not found.")
         else:
